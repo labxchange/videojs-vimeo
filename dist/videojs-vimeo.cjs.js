@@ -1,6 +1,6 @@
 'use strict';
 
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+function _interopDefault (ex) { return (ex && 'default' in ex) ? ex['default'] : ex; }
 
 var videojs = _interopDefault(require('video.js'));
 var VimeoPlayer = _interopDefault(require('@vimeo/player'));
